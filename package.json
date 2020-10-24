@@ -1,0 +1,16 @@
+{
+  "name": "guia-hoteles",
+  "version": "1.0.0",
+  "description": "Nuestro primer proyecto de nodejs\u001b[D\u001b[D\u001b[D\u001b[D\u001b[N\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://CePastran@bitbucket.org/CePastran/guia-hoteles.git"
+  },
+  "author": "Cecilia Pastran",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/CePastran/guia-hoteles#readme"
+}
