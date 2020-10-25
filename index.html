@@ -7,7 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-
+    <link rel="stylesheet" href="css/main.css">
     <title>Guia-Hoteles</title>
   </head>
   <body>
@@ -37,53 +37,111 @@
    <br>
    
     <div class="d-flex flex-wrap flex-row-reverse">
-	 <div class="col-sm">
-	  <h3>Hoteles en Argentina</h3>
-      <h4>Descripcion</h4>
-	  <button type="button" class="btn btn-secondary btn-sm">Reservar</button>
+	 <div class="card-hotel d-flex flex-column justify-content-between">
+	    <div>
+	       <h3>Hoteles en Argentina</h3>
+           <p>Los mejores hoteles del pais</p>
+		</div>
+        <div>		
+	     <button type="button" class="btn btn-secondary btn-reserve">Reservar</button>
+	    </div>	 
      </div>
-	 <div class="col-sm">
-	  <h3>Hoteles en Brasil</h3>
-      <h4>Descripcion</h4>
-	  <a<button type="button" class="btn btn-secondary btn-sm">Reservar</button>
+	 <div class="card-hotel d-flex flex-column justify-content-between">
+	    <div>
+	       <h3>Hoteles en San Pablo</h3>
+           <p>Hotel en la zona centro a metros de la playa</p>
+	    </div>	 
+	  <div> 
+	   <a<button type="button" class="btn btn-secondary btn-reserve">Reservar</button>
+	  </div>
      </div>
-	 <div class="col-sm">
-	  <h3>Hoteles en Chile</h3>
-      <h4>Descripcion</h4>
-	  <button type="button" class="btn btn-secondary btn-sm">Reservar</button>
+	 <div class="card-hotel d-flex flex-column justify-content-between">
+	    <div> 
+	       <h3>Hoteles en Chile</h3>
+           <p>Los mejores hoteles del pais</p>
+		 </div>  
+	    <div>
+	     <button type="button" class="btn btn-secondary btn-reserve">Reservar</button>
+        </div>
+	</div>	
+	 <div class="card-hotel d-flex flex-column justify-content-between">
+	  <div> 
+	     <h3>Hoteles en Uruguay</h3>
+         <p>Los mejores hoteles del pais</p>
+	  </div>
+	  <div>
+	     <button type="button" class="btn btn-secondary btn-reserve">Resevar</button>
+	  </div>	 
      </div>
-	 <div class="col-sm">
-	  <h3>Hoteles en Uruguay</h3>
-      <h4>Descripcion</h4>
-	  <button type="button" class="btn btn-secondary btn-sm">Resevar</button>
+	 <div class="card-hotel d-flex flex-column justify-content-between">
+	  <div>
+	     <h3>Hoteles en Peru</h3>
+         <p>Los mejores hoteles del pais</p>
+	  </div>
+	  <div>
+	     <button type="button" class="btn btn-secondary btn-reserve">Reservar</button>
+	  </div>
      </div>
-	 <div class="col-sm">
-	  <h3>Hoteles en Peru</h3>
-      <h4>Descripcion</h4>
-	  <button type="button" class="btn btn-secondary btn-sm">Reservar</button>
+	  <div class="card-hotel d-flex flex-column justify-content-between">
+	  <div>
+	     <h3>Hoteles en Buenos Aires</h3>
+         <p>Hotel ubicado a metros de Ezeiza<p>
+		 </div>
+	  <div>
+	     <button type="button" class="btn btn-secondary btn-reserve">Reservar</button>
+		 </div>
      </div>
-	  <div class="col-sm">
-	  <h3>Hoteles en Buenos Aires</h3>
-      <h4>Descripcion</h4>
-	  <button type="button" class="btn btn-secondary btn-sm">Reservar</button>
+	  <div class="card-hotel d-flex flex-column justify-content-between">
+	  <div>
+	     <h3>Hoteles en China</h3>
+         <p>Los mejores hoteles del pais</p>
+		 </div>
+	  <div>
+	     <button type="button" class="btn btn-secondary btn-reserve">Reservar</button>
+		 </div>
      </div>
-	  <div class="col-sm">
-	  <h3>Hoteles en China</h3>
-      <h4>Descripcion</h4>
-	  <button type="button" class="btn btn-secondary btn-sm">Reservar</button>
-     </div>
-	  <div class="col-sm">
-	  <h3>Hoteles en Madrid</h3>
-      <h4>Descripcion</h4>
-	  <button type="button" class="btn btn-secondary btn-sm">Reservar</button>
+	  <div class="card-hotel d-flex flex-column justify-content-between">
+	  <div>
+	     <h3>Hoteles en Madrid</h3>
+         <p>Hotel en pleno centro</p>
+		 </div>
+	  <div>
+	     <button type="button" class="btn btn-secondary btn-reserve">Reservar</button>
+		 </div>
      </div>
 	</div>
-
+   
   </div>
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="node_modules/popper.js/dist/popper.min.js"></script>
-	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <br>
+  <br>
+  <footer>
+    <div class="row">
+     <div class="col-sm-4 d-flex flex-column">
+         <a href="htto://www.facebook.com">Facebook</a>
+         <a href="htto://www.twitter.com">Twitter</a>
+         <a href="htto://www.instagram.com">Instagram</a>
+         <a href="htto://www.google.com">Google+</a>		 
+	 </div>
+	 <div class="col-sm-4">
+         <address>
+		     <h3>Oficina central</h3>
+			 <p>Tucuman 834, CABA, Argentina</p>
+			 <p>+549111234567</p>
+			 <p>contacto@guiahoteles.com</p>
+         </address>		 
+	 </div>
+	 <div class="col-sm-4 d-flex flex-column align-items-end">
+	     <a href="htto://www.facebook.com">Nosotros</a>
+         <a href="htto://www.twitter.com">Precios</a>
+         <a href="htto://www.instagram.com">Terminos y condiciones</a>
+         <a href="htto://www.google.com">Contacto</a>
+	  </div>
+	 </div>
+  </footer>
 
   </body>
 </html>
+ <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/popper.min.js"></script>
+	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
