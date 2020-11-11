@@ -85,8 +85,7 @@
            <p class="card-text">Los mejores hoteles cerca de la playa.</p>
 		</div>
         <div>		
-	     <button type="button" class="btn btn-secondary btn-reserve">
-		 <span class="oi oi-check"></span>Reservar</button>
+	     <button type="button" class="btn btn-primary btn-reserve" data-toggle="popover" title="Promociones" data-content="Concultá las promociones vigentes">Reservar</button>
 	    </div>	 
      </div>
 	 <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
@@ -137,7 +136,7 @@
 	  <div class="card card-hotel d-flex flex-column justify-content-between">
 	   <img class="card-img-top" src="images/hotel-bsas.jpg" alt="hotel-Argentina"></img>
 	   <div class="card-body">
-	     <h5 class="card-title">Hotel en Buenos Aires</h5>
+	     <h5 class="card-title" data-toggle="tooltip" data-placement="top" title="Las primeras reservas cuentan con clases de tango gratis">Hotel en Buenos Aires</h5>
 		 <h6 class="card-subtitle text-muted">Argentina</h6>
          <p>Hotel ubicado a metros de Ezeiza</p>
 		 <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#contacto">Contacto</button>
@@ -232,3 +231,10 @@
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/popper.js/dist/popper.min.js"></script>
 	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+	
+	<script>
+	    $(function(){
+		   $("[data-toggle='tooltip']").tooltip();
+		   $("[data-toggle='popover']").popover();
+		});
+	</script>
